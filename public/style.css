@@ -84,12 +84,20 @@ body {
     display: flex;
     justify-content: center;
 }
+.title-section {
+    padding-left: 2.5em;
+}
 .title-section > h2 {
     padding: 0;
 }
-/* .title-section {
-    padding: 1.844em 0 0 1.844em;
-} */
+.title-section > h4 {
+    display: flex;
+    justify-content: flex-start;
+}
+.title-section {
+    /* display: flex;
+    justify-content: center; */
+}
 .footer {
     padding-top: 4.875em;
 }
